@@ -1,0 +1,2 @@
+# Monolithsoft_Submissions
+モノリスソフト様に提出するプログラムのソースコードです。
