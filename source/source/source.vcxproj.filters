@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1_header">
+      <UniqueIdentifier>{59fd470d-959b-46fe-b4a5-9bb67eae906d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_source">
+      <UniqueIdentifier>{421807fc-e268-47af-ab9f-38bdfbfb2274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3_shader">
+      <UniqueIdentifier>{6120282b-b762-4e39-b435-a7feee34ca69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="1_header\Application.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\AssimpLoader.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Dx12Wrapper.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\FBXActor.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Functions.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\InputManager.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\PlayScene.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Renderer.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\ResultScene.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Scene.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\SoundManager.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\SphericalCoordinates.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\SpriteManager.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\TitleScene.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\PeraRenderer.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\BinaryFile.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2_source\Application.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\AssimpLoader.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Dx12Wrapper.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\FBXActor.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\InputManager.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\main.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\PlayScene.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Renderer.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\ResultScene.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\SoundManager.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\SphericalCoordinates.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\SpriteManager.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\TitleScene.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\PeraRenderer.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="3_shader\FBXPixelShader.hlsl">
+      <Filter>3_shader</Filter>
+    </FxCompile>
+    <FxCompile Include="3_shader\FBXVertexShader.hlsl">
+      <Filter>3_shader</Filter>
+    </FxCompile>
+    <FxCompile Include="3_shader\peraPixel.hlsl">
+      <Filter>3_shader</Filter>
+    </FxCompile>
+    <FxCompile Include="3_shader\peraVertex.hlsl">
+      <Filter>3_shader</Filter>
+    </FxCompile>
+    <FxCompile Include="3_shader\SpritePixelShader.hlsl">
+      <Filter>3_shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3_shader\FBXShaderHeader.hlsli">
+      <Filter>3_shader</Filter>
+    </None>
+    <None Include="3_shader\peraHeader.hlsli">
+      <Filter>3_shader</Filter>
+    </None>
+    <None Include="3_shader\SpriteShaderHeader.hlsli">
+      <Filter>3_shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
