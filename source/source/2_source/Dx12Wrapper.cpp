@@ -2,8 +2,8 @@
 #include "Functions.h"
 #include "SphericalCoordinates.h"
 
-const int FADE_TIME = 80;								//フェードイン／アウトにかかる時間
-const float FADE_DIFF = (float)1 / (float)FADE_TIME;	//フェード時の切り替え間隔
+const int FADE_TIME = 50;								//フェードイン／アウトにかかる時間
+const float FADE_DIFF = (float)1 / (float)FADE_TIME;					//フェード時の切り替え間隔
 
 /// <summary>
 /// デバッグ用レイヤーを初期化する関数
